@@ -18,27 +18,48 @@ AI集成：Spring AI OpenAI 集成 (1.0.0-M6)
 1. 用户管理
 用户注册与登录
 用户信息管理
- 
+
+
+
+ ![image](https://github.com/user-attachments/assets/9da99681-3312-40ae-a002-da470608b9b0)
+
 2. 航班管理
 航班信息的增删改查
 多维度过滤（出发/到达城市、日期范围等）
 航班数据可视化展示
+
+
+![image](https://github.com/user-attachments/assets/872fae8e-71be-4c34-bd57-6e824ecaa510)
+
+3. 航班管理
+航班信息的增删改查
+多维度过滤（出发/到达城市、日期范围等）
+航班数据可视化展示
+
+
  
-3. 数据统计与分析
+4. 数据统计与分析
 航班总数统计
 活跃航班统计
 总座位数统计
 航线数量统计
 数据可视化展示（甘特图）
- 
-4. AI辅助功能
+
+
+ ![image](https://github.com/user-attachments/assets/1295d9dc-7871-490e-9d21-fc81759b51dc)
+
+5. AI辅助功能
 AI智能助手对话
 基于数据库的智能问答
 单用户分析
 批量用户分析
 航班分析
- 
-5. 数据导出功能
+
+
+
+ ![image](https://github.com/user-attachments/assets/e646878e-306b-471f-b469-e009dc8a1743)
+
+6. 数据导出功能
 航班数据导出
 四、开发工具
 IDE：IntelliJ IDEA（后端）、Visual Studio Code（前端）
