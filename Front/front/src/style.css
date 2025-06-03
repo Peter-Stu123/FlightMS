@@ -1,0 +1,85 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark; /* 设置颜色主题为暗色 */
+  color: rgba(255, 255, 255, 1); /* 更改默认文字颜色为纯白色以加深 */
+  /* background-color: #f9f9f9; */ /* 移除或注释掉浅色背景 */
+  background: linear-gradient(to right, #0A2463, #0F2E7A); /* 设置深蓝渐变背景 */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 1); /* 将文字颜色调整为纯白色以加深 */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #FFFFFF; /* 调整 h1 颜色为纯白色以加深 */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */ /* 调整按钮背景色 */
+  background-color: #1637AA; /* 深蓝色系按钮背景 */
+  color: rgba(255, 255, 255, 1); /* 按钮文字颜色改为纯白色以加深 */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff; /* 可以保留或调整高亮颜色 */
+  background-color: #1F4A99; /* 按钮悬停背景色调整 */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* color: #213547; */ /* 注释掉亮色模式下的颜色设置 */
+    /* background-color: #ffffff; */
+  }
+  a:hover {
+    /* color: #747bff; */
+  }
+  button {
+    /* background-color: #f9f9f9; */
+  }
+}

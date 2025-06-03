@@ -1,0 +1,6 @@
+依据我的后端工程，按照天津仁爱学院智算工程学院-《Java EE框架技术》大作业.pdf
+数据库我已经创建了两个分别在后端工程中的Entity文件夹下，分别是Cityinfo和Flightinfo
+Cityinfo是城市信息表，Flightinfo是航班信息表
+在后端工程中，我已经创建了两个Controller文件夹下的CityinfoController和FlightinfoController
+CityinfoController是城市信息表的控制器，FlightinfoController是航班信息表的控制器
+前端是一个vue工程，运用的是element-plus组件库，你能依据后端的代码完成前端的页面吗，后端现在业务功能只有查询，以后还会再次添加
